@@ -9,7 +9,6 @@ buildscript {
         jcenter()
     }
 
-    //dependencies { classpath 'org.gradle.api.plugins:gradle-tomcat-plugin:1.0' }
 }
 
 repositories {
@@ -17,7 +16,6 @@ repositories {
 }
 
 ext {
-    
     jacksonVersion="2.2.3"
 }
 
@@ -39,11 +37,7 @@ dependencies {
     compile 'com.google.guava:guava:17.0'
 
 	compile 'commons-io:commons-io:2.4'
-    compile 'org.apache.commons:commons-lang3:3.0'
-    compile 'commons-fileupload:commons-fileupload:1.3.1'
 
-	compile 'org.activiti:activiti-engine:5.15.1'
-            
     compile 'org.slf4j:slf4j-log4j12:1.7.7'
     compile 'log4j:log4j:1.2.17'
 
